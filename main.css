@@ -1,0 +1,175 @@
+body{
+position: relative;
+width: 1440px;
+height: 1923px;
+background: rgba(244, 236, 236, 0.95);
+}
+
+p{
+position: absolute;
+width: 144px;
+height: 32px;
+left: 94px;
+top: 78px;
+
+/* Name */
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+#p1{
+position: absolute;
+width: 50px;
+height: 21px;
+left: 1032px;
+top: 78px;
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+#p2{
+position: absolute;
+width: 69px;
+height: 21px;
+left: 1104px;
+top: 78px;
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+#p3{
+position: absolute;
+width: 75px;
+height: 21px;
+left: 1195px;
+top: 78px;
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+#p4{
+	position: absolute;
+width: 240px;
+height: 26px;
+left: 120px;
+top: 194px;
+
+/* Heading */
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #000000;
+}
+
+#p5{
+	position: absolute;
+width: 90px;
+height: 26px;
+left: 1230px;
+top: 194px;
+
+/* Heading */
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #000000;
+}
+
+#pic{
+position: absolute;
+width: 1200px;
+height: 650px;
+left: 120px;
+top: 286px;
+}
+
+#p6{
+position: absolute;
+width: 296px;
+height: 26px;
+left: 120px;
+top: 1001px;
+
+/* Heading */
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #000000;
+}
+
+#p7{
+position: absolute;
+width: 90px;
+height: 26px;
+left: 1230px;
+top: 1006px;
+
+/* Heading */
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #000000;
+
+}
+
+#pic2{
+	position: absolute;
+width: 1200px;
+height: 650px;
+left: 120px;
+top: 1092px;
+}
