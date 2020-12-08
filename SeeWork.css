@@ -1,0 +1,54 @@
+body{
+    position: relative;
+width: 1440px;
+height: 1923px;
+
+background: rgba(244, 236, 236, 0.95);
+}
+
+#pic{
+	position: absolute;
+width: 1200px;
+height: 650px;
+left: 120px;
+top: 254px;
+}
+
+p{
+	position: absolute;
+width: 288px;
+height: 32px;
+left: 189px;
+top: 128px;
+
+/* Name */
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+#content{
+	position: absolute;
+width: 1214px;
+height: 339px;
+left: 124px;
+top: 962px;
+
+/* Content */
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: #000000;
+}
