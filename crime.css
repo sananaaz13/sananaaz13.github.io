@@ -1,0 +1,35 @@
+body{
+    background-color: #F1E7D0;
+}
+
+/*Navigation Bar*/
+.navbar-brand{
+	font-family: 'Montserrat';
+	font-size: 28px;
+    font-weight: bold;
+	margin-left: 40px;
+	color: black;
+}
+.nav-link{
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: 700;
+	color: black;
+}
+
+#navbar-example2 .active {
+  color: black;
+  background-color: #F1E7D0 ;
+}
+#navbar-example2{
+	background-color: #F1E7D0;
+}
+
+
+/*Content*/
+.empo{
+	margin-left: 180px;
+}
+.empopic{
+	margin-left: 80px;
+}

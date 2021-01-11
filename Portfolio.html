@@ -1,22 +1,71 @@
 <html>
 <head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+    <!--Font Link-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+    
+    <!--CSS Link -->
 	<link rel="stylesheet" type="text/css" href="Portfolio.css">
+
+	<!--JS Link-->
 	<link rel="stylesheet" type="text/css" href="Portfolio.js">
 </head>
 
 <body>
-<p> SANA NAAZ <p>
-<p id="p1"> WORK </p>
-<p id="p2">RESUME<p>
-<p id="p3">CONTACT</p> 	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-<p id="p4">EMPORIUM MOBILE APP</p>
+	<!--Navigation bar-->
+	<nav id="navbar-example2" class="navbar navbar-custom">
+		<a class="navbar-brand" href="Portfolio.html" id="names">SANA NAAZ</a>
+		<ul class="nav nav-pills">
+			<li class="nav-item">
+				<a class="nav-link" href="#sec1">Work</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Resume</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="#sec2">Contact</a>
+			</li>			
+		</ul>
+	</nav>
+	<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+		<!--This is scrollspy id is must here-->
+        <!--Intro
+        <p id="intro">I'm recent IT graduate with interest in 
+        Web Development & Web Designing.</p>-->
 
-<a href="SeeWork.html">SeeWork</a>
-<img id="pic" src="Portfolio pic.png">
+		<!--Work-->
+		<div class="section" id="sec1">
+			<h4>EMPORIUM MOBILE APP</h4>
+			<a href="empo.html" class="seework" id="sw1">See Work</a>
+			<img id="pic" src="Portfolio pic.png">
+		</div>
 
-<p id="p6">FACE DETECTION MOBILE APP</p>
-<p id="p7">See Work</p>
-<img id="pic2" src="Portfolio pic.png">
+		<div class="section">
+			<h4>CAFE NOVA WEBSITE</h4>
+			<a href="cafe.html" class="seework" id="sw2">See Work</a>
+			<img id="pic2" src="Portfolio pic.png">	
+		</div>
+
+		<div class="section">
+			<h4>CRIME INVESTIGATION RECORD</h4>
+			<a href="crime.html" class="seework" id="sw3">See Work</a>
+			<img id="pic2" src="Portfolio pic.png">	
+		</div>
+
+
+		<!--Contact-->
+		<div id="sec2">
+		    <h4 id="cont">Contact</h4>
+		</div>
+	</div>
 <body>
 </html>

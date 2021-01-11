@@ -1,175 +1,72 @@
 body{
-position: relative;
-width: 1440px;
-height: 1923px;
-background: rgba(244, 236, 236, 0.95);
+    background-color: #F1E7D0;
 }
 
-p{
-position: absolute;
-width: 144px;
-height: 32px;
-left: 94px;
-top: 78px;
-
-/* Name */
-
-font-family: Roboto Slab;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 32px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #000000;
+/*Navigation Bar*/
+.navbar-brand{
+	font-family: 'Montserrat';
+	font-size: 28px;
+    font-weight: bold;
+	margin-left: 40px;
+	color: black;
+}
+.nav-link{
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: 700;
+	color: black;
 }
 
-#p1{
-position: absolute;
-width: 50px;
-height: 21px;
-left: 1032px;
-top: 78px;
-
-font-family: Roboto Slab;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 21px;
-display: flex;
-align-items: center;
-
-color: #000000;
+#navbar-example2 .active {
+  color: black;
+  background-color: #F1E7D0 ;
+}
+#navbar-example2{
+	background-color: #F1E7D0;
 }
 
-#p2{
-position: absolute;
-width: 69px;
-height: 21px;
-left: 1104px;
-top: 78px;
 
-font-family: Roboto Slab;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 21px;
-display: flex;
-align-items: center;
-
-color: #000000;
-}
-
-#p3{
-position: absolute;
-width: 75px;
-height: 21px;
-left: 1195px;
-top: 78px;
-
-font-family: Roboto Slab;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 21px;
-display: flex;
-align-items: center;
-
-color: #000000;
-}
-
-#p4{
-	position: absolute;
-width: 240px;
-height: 26px;
-left: 120px;
-top: 194px;
-
-/* Heading */
-
-font-family: Roboto Slab;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 26px;
-text-align: center;
-
-color: #000000;
-}
-
-/*#p5{
-	position: absolute;
-width: 90px;
-height: 26px;
-left: 1230px;
-top: 194px;
-
-
-
-font-family: Roboto Slab;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 26px;
-text-align: center;
-
-color: #000000;
+/*Content*/
+/*#intro{
+	text-align: center;
+	color: black;
+	font-family: 'Montserrat';
+	font-size: 40px;
+	font-weight: 700;
 }*/
-
-#pic{
-position: absolute;
-width: 1200px;
-height: 650px;
-left: 120px;
-top: 286px;
+.section{
+	margin-left: 80px;
+}
+h4{
+   font-family: 'Montserrat';
+   font-size: 18px;
+   font-weight: bold;
+   margin-top: 10px;
 }
 
-#p6{
-position: absolute;
-width: 296px;
-height: 26px;
-left: 120px;
-top: 1001px;
-
-/* Heading */
-
-font-family: Roboto Slab;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 26px;
-text-align: center;
-
-color: #000000;
+.seework{ 
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 600; 
+    position: absolute; 
+    left: 1200px;     
 }
 
-#p7{
-position: absolute;
-width: 90px;
-height: 26px;
-left: 1230px;
-top: 1006px;
-
-/* Heading */
-
-font-family: Roboto Slab;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 26px;
-text-align: center;
-
-color: #000000;
-
+#sw1{
+	top: 74px;
 }
 
-#pic2{
-	position: absolute;
-width: 1200px;
-height: 650px;
-left: 120px;
-top: 1092px;
+#sw2{
+   	top: 765px;
 }
+
+#sw3{
+	top:1455;
+}
+
+
+
+
+
+
+
