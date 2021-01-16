@@ -7,6 +7,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+    <!--Materialize css icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
     <!--Font Link-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
@@ -23,7 +26,7 @@
 		<a class="navbar-brand" href="Portfolio.html" id="names">SANA NAAZ</a>
 		<ul class="nav nav-pills">
 			<li class="nav-item">
-				<a class="nav-link" href="#">Resume</a>
+				<a class="nav-link" href="resume.pdf" download="resume">Resume</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link active" href="#sec2">Contact</a>
@@ -33,8 +36,12 @@
 	<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
 		<!--This is scrollspy id is must here-->
 		<!--Content-->
-        <img src="arrow-left.svg" id="back">
-	    <h4 id="empo">EMPORIUM MOBILE APP</h4><br>
+		   <!--Icon & heading-->
+			<div>
+			   	<a href="Portfolio.html"><i class="large material-icons">arrow_back</i></a>
+
+			   	<h4 id="empo-head">EMPORIUM MOBILE APP</h4><br>
+			</div>
 
 		<div class="empopic">
 			<img id="pic" src="empo.png"><br>
@@ -45,9 +52,7 @@
 		</div>
 
 		<!--Contact-->
-		<div id="sec2">
-		    <h4 id="cont">Contact</h4>
-		</div>
+		
 	</div>
 <body>
 </html>
