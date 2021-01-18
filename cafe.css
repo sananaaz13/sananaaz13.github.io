@@ -1,5 +1,5 @@
 body{
-    background-color: #F1E7D0;
+    background-color: #fff0e3;
 }
 
 /*Navigation Bar*/
@@ -19,10 +19,10 @@ body{
 
 #navbar-example2 .active {
   color: black;
-  background-color: #F1E7D0 ;
+  background-color:#F1E7D0;
 }
 #navbar-example2{
-	background-color: #F1E7D0;
+	background-color: #e0c0a3;
 }
 
 
@@ -47,3 +47,9 @@ body{
 }
 
 /*Footer*/
+.page-footer{
+  background-color: #e0c0a3;
+}
+.footer2{
+  background-color: #dfad80;
+}

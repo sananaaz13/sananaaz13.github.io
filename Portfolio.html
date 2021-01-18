@@ -22,6 +22,12 @@
     <!--Fontawsome icon css-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<!--Animate CSS-->
+	<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   
+    <!--Hover CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"/>
     
 
     <!--Font Link-->
@@ -37,18 +43,18 @@
 <body>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-	<!--Navigation bar-->
-	<nav id="navbar-example2" class="navbar navbar-custom z-depth-0">
+	<!--Navigation bar bootstrap-->
+	<nav id="navbar-example2" class="navbar py-3 z-depth-0">
 		<a class="navbar-brand" href="Portfolio.html" id="names">SANA NAAZ</a>
 		<ul class="nav nav-pills">
 			<li class="nav-item">
-				<a class="nav-link" href="#sec1">Work</a>
+				<a class="nav-link hvr-underline-from-center" href="#sec1">Work</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="resume.pdf" download="resume">Resume</a>
+				<a class="nav-link hvr-underline-from-center" href="resume.pdf" download="resume">Resume</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link active" href="#sec2">Contact</a>
+				<a class="nav-link active hvr-underline-from-center" href="#sec2">Contact</a>
 			</li>			
 		</ul>
 	</nav>
@@ -56,8 +62,9 @@
 		<!--This is scrollspy id is must here-->
         <!--Intro-->
         <center>
-        	<p id="intro1">Hello! I'm Sana Naaz.</p>
+        	<p id="intro1" class="animate__animated animate__slideInDown animate__slow">Hello! I'm Sana Naaz.</p>
             <p id="intro2">Recent IT graduate with interest in Development & Designing,devoted to crafting beautiful web experiences focused on simplicity and purpose.</p>
+            
 
 		</svg>
         </center>
@@ -67,56 +74,56 @@
 		<div class="section" id="sec1">
 			<h4>EMPORIUM MOBILE APP</h4>
 			<a href="empo.html" class="seework" id="sw1">See Work</a>
-			<img id="pic" src="empo.png">
+			<img id="pic" src="empo.png" class="animate__animated animate__fadeInLeft animate__slow">
 		</div><br>
 
 		<div class="section">
 			<h4>CAFE NOVA WEBSITE</h4>
 			<a href="cafe.html" class="seework" id="sw2">See Work</a>
-			<img id="pic2" src="cafe.png">	
+			<img id="pic2" src="cafe.png" class="animate__animated animate__fadeInRight animate__slow">	
 		</div><br>
 
 		<div class="section">
 			<h4>CRIME INVESTIGATION RECORD</h4>
 			<a href="crime.html" class="seework" id="sw3">See Work</a>
-			<img id="pic2" src="crime.png">	
+			<img id="pic2" src="crime.png" class="animate__animated animate__fadeInLeft animate__slow">	
 		</div>
 
 
 
 
-		<!--Contact-->
+		<!--Contact/footer materializecss-->
 		<div id="sec2">	
-		<footer class="page-footer">
+		<footer class="page-footer p-3">
           <div class="container" id="contact">
             <div class="row">
               <div class="col 16 s12">
-                <h5 class="black-text">CONTACT</h5>
-                <p class="grey-text text-lighten-4">
-                	<p>
-                		<i class="fa fa-envelope"></i>  sananaaaz13@gmail.com
-                	</p>
-                	<p>
+                <h4 class="black-text">CONTACT</h4>
+                <p class="black-text">
+                	
+                		<i class="fa fa-envelope"></i>  sananaaaz13@gmail.com <br><br>
+                	
                 		<i class="fa fa-instagram"></i>  sana_naaaz
-                	</p>
+                	
                 </p>
               </div>
               <div class="col 14 offset-l2 s12" id="links" >
-                <h5 class="black-text">Links</h5>
+                <h4 class="black-text">Links</h4>
                 <ul>
-                  <li><a class="black-text text-lighten-3" href="Portfolio.html">Home</a></li>
-                  <li><a class="black-text text-lighten-3" href="Portfolio.html">Work</a></li>
-                  <li><a class="black-text text-lighten-3" href="resume.pdf" download="resume">Resume</a></li>
+                  <li><a class="black-text text-lighten-3 hvr-underline-from-center" href="Portfolio.html">Home</a></li>
+                  <li><a class="black-text text-lighten-3 hvr-underline-from-center" href="Portfolio.html">Work</a></li>
+                  <li><a class="black-text text-lighten-3 hvr-underline-from-center" href="resume.pdf" download="resume">Resume</a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="footer-copyright">
-            <div class="container2">
-             © 2021 Copyright Sana Naaz  
-            </div>
-          </div>
-        </footer>
+          </footer>
+
+          <footer class="footer2 p-2">
+                
+          </footer>	
+          
+        
         </div>       
 	</div>
 <body>

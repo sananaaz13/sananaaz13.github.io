@@ -1,5 +1,5 @@
 body{
-    background-color: #F1E7D0;
+    background-color:#fff0e3;  /*#F1E7D0*/
 }
 
 /*Navigation Bar*/
@@ -19,11 +19,11 @@ body{
 
 #navbar-example2 .active {
   color: black;
-  background-color: #F1E7D0 ;
+  background-color:#F1E7D0 ;
 
 }
 #navbar-example2{
-	background-color: #F1E7D0;
+	background-color:#e0c0a3;
 }
 
 
@@ -79,38 +79,11 @@ h4{
 }
 
 /*Footer*/
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-main {
-    flex: 1 0 auto;
-}
 .page-footer{
-   background-color:#ecdfc1;
-   color: black;
-
+	background-color: #e0c0a3;
 }
-.container2{
-    color: black;
-    margin-left: 600px;
-}
-
-
-#contact{
-	margin-left: 180px;
-}
-#links{
-	margin-left: 260px;
-}
-.material-icons{
-	color: black;
-	font-size: 20px;
-}
-.footer-copyright{
-     height: 5px;
-    
+.footer2{
+	background-color: #dfad80;
 }
 
 
