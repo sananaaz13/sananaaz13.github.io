@@ -1,6 +1,13 @@
 body{
     background-color: #fff0e3;
 }
+h4{
+   font-family: 'Montserrat';
+   font-size: 24px;
+   font-weight: bolder;
+   margin-top: 10px;
+   color: black;
+}
 
 /*Navigation Bar*/
 .navbar-brand{
@@ -9,6 +16,7 @@ body{
     font-weight: bold;
 	margin-left: 40px;
 	color: black;
+	margin-bottom: 140px;
 }
 .nav-link{
 	font-family: 'Montserrat';
@@ -16,11 +24,16 @@ body{
 	font-weight: 700;
 	color: black;
 }
+.nav-pills{
+	margin-bottom: 140px;
+}
 
 #navbar-example2 .active {
+  background : transparent;
   color: black;
-  background-color:#F1E7D0;
+
 }
+
 #navbar-example2{
 	background-color:#e0c0a3;
 }
@@ -28,21 +41,17 @@ body{
 
 /*Content*/
 #crime-head{
-	margin-left: 140px;
+	margin-left: 120px;
 	top: 5px;
 }
-.material-icons{
-  width: 50px;
-  height: 50px;
-  position: relative;
-  top: 45px;
-  margin-right: 10px;
-  color: black;
-  margin-left: 80px;
-  font-size: 40px;
-  
+.fa-angle-left{
+	color: black;
+	position: relative;
+	margin-left: 90px;
+	right: 5px;
+	top: 35px;
 }
-.empopic{
+.crimepic{
 	margin-left: 80px;
 }
 
@@ -52,4 +61,14 @@ body{
 }
 .footer2{
 	background-color: #dfad80;
+}
+
+/*animation*/
+.nav-item>a:hover{
+	background:initial;
+	color: black;
+}
+
+.navbar>a:hover{
+	color: black;
 }
