@@ -8,6 +8,12 @@ h4{
    margin-top: 10px;
    color: black;
 }
+h5{
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: black;
+	font-size: 18px;
+}
 
 /*Navigation Bar*/
 .navbar-brand{
@@ -53,6 +59,19 @@ h4{
 }
 .crimepic{
 	margin-left: 80px;
+}
+
+.info{
+    margin-left: 50px;
+    margin-right: 120px;
+}
+.about{
+	font-size: 16px;
+	color: black;
+}
+.software{
+    font-size: 16px;
+    color: black;
 }
 
 /*Footer*/
