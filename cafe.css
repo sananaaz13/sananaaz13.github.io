@@ -22,7 +22,7 @@ h5{
     font-weight: bold;
   margin-left: 40px;
   color: black;
-  margin-bottom: 140px;
+
 }
 .nav-link{
   font-family: 'Montserrat';
@@ -30,14 +30,15 @@ h5{
   font-weight: 700;
   color: black;
 }
-.nav-pills{
-  margin-bottom: 140px;
-}
+
 
 #navbar-example2 .active {
   background : transparent;
   color: black;
 
+}
+#navbar-example2{
+  background-color:#e0c0a3;
 }
 
 #navbar-example2{
@@ -83,10 +84,20 @@ h5{
 
 /*animation*/
 .nav-item>a:hover{
-  background:initial;
+  
   color: black;
-}
+  border-bottom: 2px solid black;
+    background:none;
+}   
 
 .navbar>a:hover{
   color: black;
+}
+
+.section>a:hover{
+  border-bottom: 2px solid black;
+}
+
+.link-items>li>a:hover{
+  border-bottom: 2px solid black;
 }
