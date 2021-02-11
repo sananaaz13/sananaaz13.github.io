@@ -9,26 +9,26 @@ h4{
    color: black;
 }
 h5{
-	font-family: 'Montserrat';
-	font-weight: bold;
-	color: black;
-	font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
 }
 
 /*Navigation Bar*/
 .navbar-brand{
-	font-family: 'Montserrat';
-	font-size: 28px;
+  font-family: 'Montserrat';
+  font-size: 28px;
     font-weight: bold;
-	margin-left: 40px;
-	color: black;
+  margin-left: 40px;
+  color: black;
 
 }
 .nav-link{
-	font-family: 'Montserrat';
-	font-size: 16px;
-	font-weight: 700;
-	color: black;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
 }
 
 
@@ -38,24 +38,27 @@ h5{
 
 }
 #navbar-example2{
-	background-color:#e0c0a3;
+  background-color:#e0c0a3;
 }
 
+#navbar-example2{
+  background-color:#e0c0a3;
+}
 
 /*Content*/
-#empo-head{
+#robo-head{
 	margin-left: 30px;
-	
+
 }
 .fa-angle-left{
-	color: black;
-	position: relative;
-	right: 5px;
-	top: 35px;
+  color: black;
+  position: relative;
+  right: 5px;
+  top: 35px;
 }
-.empopic{
+.robopic{
 	margin-left: 80px;
-	margin-right: 80px;
+  margin-right: 80px;
 }
 
 .info{
@@ -63,14 +66,13 @@ h5{
     margin-right: 120px;
 }
 .about{
-	font-size: 16px;
-	color: black;
+  font-size: 16px;
+  color: black;
 }
 .software{
     font-size: 16px;
     color: black;
 }
-
 .viewwork{ 
     color: black;
     font-family: 'Montserrat';
@@ -83,33 +85,31 @@ h5{
 
 /*Footer*/
 .page-footer{
-	background-color: #e0c0a3;
+  background-color: #e0c0a3;
 }
 .footer2{
-	background-color: #dfad80;
+  background-color: #dfad80;
 }
 
 /*animation*/
 .nav-item>a:hover{
-	
-	color: black;
-	border-bottom: 2px solid black;
+  
+  color: black;
+  border-bottom: 2px solid black;
     background:none;
 }   
 
 .navbar>a:hover{
-	color: black;
+  color: black;
 }
-
 .viewwork:hover{
-	border-bottom: 2px solid black;
-	color: black;
+  border-bottom: 2px solid black;
+  color: black;
 }
-
 .section>a:hover{
-	border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .link-items>li>a:hover{
-	border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
 }

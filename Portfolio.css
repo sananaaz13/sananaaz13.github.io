@@ -51,9 +51,7 @@ body{
 	margin-bottom: 50px;
 
 }
-.section{
-	margin-left: 80px;
-}
+
 h4{
    font-family: 'Montserrat';
    font-size: 24px;
@@ -66,25 +64,13 @@ h4{
     color: black;
     font-family: 'Montserrat';
     font-weight: 600; 
-    position: absolute; 
-    left: 1200px;     
+    position: relative;
+    float: right;
+    margin-top: 10px;  
 }
 
-.section>a:hover{
-	color: black;
-}
 
-#sw1{
-	top: 355px;
-}
 
-#sw2{
-   	top: 1098px;
-}
-
-#sw3{
-	top:1855;
-}
 
 /*Footer*/
 .page-footer{
@@ -106,8 +92,9 @@ h4{
 	color: black;
 }
 
-.section>a:hover{
+.seework:hover{
 	border-bottom: 2px solid black;
+	color: black;
 }
 
 .link-items>li>a:hover{

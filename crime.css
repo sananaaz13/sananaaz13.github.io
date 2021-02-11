@@ -44,18 +44,17 @@ h5{
 
 /*Content*/
 #crime-head{
-	margin-left: 120px;
-	top: 5px;
+	margin-left: 30px;
 }
 .fa-angle-left{
 	color: black;
 	position: relative;
-	margin-left: 90px;
 	right: 5px;
 	top: 35px;
 }
 .crimepic{
 	margin-left: 80px;
+	margin-right: 80px;
 }
 
 .info{
@@ -70,6 +69,15 @@ h5{
     font-size: 16px;
     color: black;
 }
+.viewwork{ 
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 600; 
+    position: relative;
+    float: right;
+    margin-top: 40px;  
+}
+
 
 /*Footer*/
 .page-footer{
@@ -88,6 +96,10 @@ h5{
 }   
 
 .navbar>a:hover{
+	color: black;
+}
+.viewwork:hover{
+	border-bottom: 2px solid black;
 	color: black;
 }
 
